@@ -1,0 +1,19 @@
+
+header{
+    position: relative;
+    top:5px;
+}
+
+footer{
+    position: relative;
+    top:35px; 
+    text-align: center;
+}
+
+#companyName{
+    text-align: center;
+}
+
+
+
+  
