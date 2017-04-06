@@ -1,17 +1,19 @@
 
 header{
     position: relative;
-    top:5px;
+    top:1px;	
+
 }
 
 footer{
     position: relative;
-    top:35px; 
+    top:1px; 
     text-align: center;
 }
 
 #companyName{
     text-align: center;
+    font: oblique 25px New York, serif;
 }
 
 

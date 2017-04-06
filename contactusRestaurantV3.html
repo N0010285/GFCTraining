@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+    <style>
+	form {
+		position: relative;
+		left: 50px;
+		width: 500px;
+		height: 400px;		
+	    }
+
+	.label {
+		text-align: right;
+		font-weight: bold;
+	    }	
+
+	
+	.input {
+		text-align: right;
+		width: 45px;
+	    }	
+
+	table {
+		width: 500px;
+		height: 400px;
+	    }
+
+    </style>
+</head>
+
+<body>
+<hr/>
+     <header>
+	
+		<p id="companyName">Go For Lunch Cafe</p>
+
+		<hr/>
+
+		<a href="homepageRestaurantV3.html">Home</a>
+		<a href="menupageRestaurantV3.html">Menu</a>
+		<a href="contactusRestaurantV3.html">Contact Us</a>
+		
+		<hr/>
+
+    </header>
+
+    <div>
+
+	     
+	<form action="restaurantCustomerFeedback.html" method="post">
+ 	 <table> 
+        	<tr>
+			<td class="label">Name:</td> 
+			<td class="input"><input type="text" name="name" size="26"/></td>
+		</tr>
+
+		<tr>
+			<td class="label">Email:</td>
+			<td class="input"><input type="text" name="email" size="26"></td>
+		</tr>
+
+		<tr>	
+			<td class="label">Phone:</td>
+			<td class="input"><input type="text" name="phone" size="26"/></td>
+		</tr>
+
+		<tr>
+			<td class="label">Reason for Inquiry:</td>
+				<td><select name="Reason">
+				<option value="Catering (default)">Catering</option>
+				<option value="Private Party">Private Party</option>
+				<option value="Feedback">Feedback</option>
+				<option value="Other">Other</option>
+				<option value="blank">_____________________</option>
+				</select></td>
+		</tr>
+
+		<tr valign="top">
+			<td class="label" >Additional Information:</td>
+			<td class="input"><textarea name="additionalInformation" rows="6"></textarea></td>
+	 
+  		</tr>
+
+
+        	<tr>
+			<td class="label">Have you been to the restaurant?</td>
+			<td align=left><input type="radio" name="beenToRestaurant" value="No" checked/>No <input type="radio" name="beenToRestaurant" value="Yes"/>Yes</td>
+		</tr>  
+        		
+
+        
+          	<tr>
+			<td class="label">Best days to contact you:</td>
+			<td align=left><input type="checkbox" name="bestDaysToContact" value="M"/>M<input type="checkbox" name="bestDaysToContact" value="T"/>T<input type="checkbox" name="bestDaysToContact" value="W"/>W<input type="checkbox" name="bestDaysToContact" value="Th"/>Th<input type="checkbox" name="bestDaysToContact" value="F"/>F</td> 
+        	</tr>
+	
+		<tr>  
+          		<td></td>
+			<td align=right><input type="submit" value="Send Request"/><br/><td>
+          	
+		</tr>
+      	</form>
+	</table>  
+   
+    </div>		
+
+
+    <footer>	
+		<hr/>			
+		<p>15 Pedroia Lane, Boston, Massachusetts, 02110</p>
+		<p>(617) 357-1515</p>
+
+		<hr/>	
+
+     </footer>
+		
+</body>
+
+</html>
