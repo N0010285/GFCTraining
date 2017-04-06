@@ -1,18 +1,17 @@
 
 div{
-    background-color: red;
+    background-color: white;
+    border:1px black solid;
 }
 
 table{
-    background-color: yellow;
-}
-
-li{
-    background-color: blue;
+    background-color: white;
 }
 
 
 #part1{
-    background-color: green;
+    background-color: white;
+    border:1px black solid;
 }
   
+
