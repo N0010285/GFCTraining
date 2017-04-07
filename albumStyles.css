@@ -5,13 +5,37 @@ div{
 }
 
 table{
-    background-color: white;
+    background-color: #d1e0e0;
 }
-
 
 #part1{
     background-color: white;
     border:1px black solid;
 }
+
+td {
+    font-style: italic;
+}
   
+a {
+    font-family: Garamond;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visted {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #ffff33;
+}
+
+a:active {
+    text-decoration: none;
+}
 
